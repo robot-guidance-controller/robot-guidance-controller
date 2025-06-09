@@ -1,0 +1,3 @@
+[submodule "external/shared-language-force-embedding"]
+	path = external/shared-language-force-embedding
+	url = https://github.com/Shared-Language-Force-Embedding/shared-language-force-embedding.git

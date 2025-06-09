@@ -1,0 +1,40 @@
+# Ignore virtual environments
+venv/
+.python-version
+
+# Ignore all notebooks
+*.ipynb
+
+# By default ignore files in data dir
+data/*
+
+# By default ignore files in models dir
+models/*
+
+# By default ignore files in notebooks dir
+notebooks/*
+
+# Don't ignore significant files in notebooks dir
+!notebooks/preamble.py
+!notebooks/physical_therapy.ipynb
+!notebooks/calibrate_camera.ipynb
+!notebooks/guidance_controller_experiment.ipynb
+!notebooks/dumb_guidance_controller_experiment.ipynb
+!notebooks/physical_only_experiment.ipynb
+!notebooks/calibrate_language_only_experiment.ipynb
+!notebooks/language_only_experiment.ipynb
+
+# Ignore Python caches
+__pycache__/
+
+# Ignore VSCode settings directory
+.vscode/
+
+# Ignore VSCode workspace settings
+*.code-workspace
+
+# Ignore .npy files
+*.npy
+
+# Ignore .DS_store files
+*.DS_store
