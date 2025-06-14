@@ -24,6 +24,7 @@ notebooks/*
 !notebooks/calibrate_language_only_experiment.ipynb
 !notebooks/language_only_experiment.ipynb
 !data/reference_path.csv
+!data/F2L_models
 
 # Ignore Python caches
 __pycache__/
